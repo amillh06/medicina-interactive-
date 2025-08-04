@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Interactiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Curricular - Medicina</h1>
+  <div id="malla">
+
+    <h2>Primer Año</h2>
+
+    <div class="trimestre">
+      <h3>I Trimestre</h3>
+      <button class="materia" id="fisica" data-desbloquea="biofisica,biologia">Física médica</button>
+      <button class="materia" id="matematicas" data-desbloquea="bioestadistica,quimica1,quimica2">Matemáticas</button>
+      <button class="materia" id="historia" data-desbloquea="sociologia">Historia</button>
+      <button class="materia" id="filosofia" data-desbloquea="etica">Filosofía</button>
+    </div>
+
+    <div class="trimestre">
+      <h3>II Trimestre</h3>
+      <button class="materia bloqueada" id="sociologia" data-desbloquea="intro_salud_pub">Sociología</button>
+      <button class="materia bloqueada" id="biologia" data-desbloquea="biofisica">Biología</button>
+      <button class="materia bloqueada" id="etica">Ética</button>
+    </div>
+
+    <div class="trimestre">
+      <h3>III Trimestre</h3>
+      <button class="materia bloqueada" id="intro_salud">Introducción a la salud</button>
+      <button class="materia bloqueada" id="bioestadistica">Bioestadística</button>
+      <button class="materia bloqueada" id="biofisica">Biofísica</button>
+      <button class="materia bloqueada" id="quimica1" data-desbloquea="quimica2">Química I</button>
+    </div>
+
+    <div class="trimes
 
